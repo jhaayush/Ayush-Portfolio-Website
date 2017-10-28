@@ -1,0 +1,125 @@
+*{
+	color: #494C4E;
+	text-align: center;
+}
+
+body{
+	font-family: 'Germania One', cursive;
+	border: 8px solid #494C4E;
+}
+
+p{
+	text-align: left;
+	font-size: 1.2em;
+}
+
+.capitalize{
+	text-transform: uppercase;
+}
+
+.mini-container{
+	width: 60%;
+}
+
+.section-heading{
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+
+.tm-navbar{
+	margin-top: 35px;
+}
+
+.navbar-links{
+	list-style-type: none;
+}
+
+.navbar-links li{
+	display: inline-block;
+	line-height: 70px;
+}
+
+.navbar-links li a{
+	font-size: 25px;
+	padding: 10px 15px;
+	color: #494C4E;
+}
+
+.navbar-links li a:hover{
+	text-decoration: none;
+	color: #e83f29
+}
+
+.navbar-links li a:active{
+	text-decoration: none;
+}
+
+.tm-header{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.tm-header img{
+	width: 100%;
+}
+
+.about, .projects, .notes, .contact, .tm-footer{
+	margin-bottom: 50px;
+}
+
+.well img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.mini-container p{
+	text-align: left;
+	font-size: 1.2em;
+}
+
+.technologies{
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.project-contents{
+	min-height: 215px;
+	margin-bottom: 20px;
+}
+
+.notes h3, ul{
+	text-align: left;
+}
+
+.notes-links li{
+	text-align: left;
+	line-height: 40px;
+}
+
+.notes-links li a{
+	font-size: 20px;
+	padding: 10px 10px;
+	color: #494C4E;
+}
+
+.notes-links li a:hover{
+	text-decoration: none;
+	color: #e83f29
+}
+
+.notes-links li a:active{
+	text-decoration: none;
+}
+
+.contact div p{
+	text-align: center;
+}
+
+.tm-footer{
+	padding-top: 50px;
+}
+
+.social-links a{
+	padding-left: 10px;
+	padding-right: 10px;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Language Translator</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<nav>
+		<div class="container">
+			<h2>Language Translator</h2>
+		</div>
+	</nav>
+	<section>
+		<div class="container">
+			<h1>
+				Language Translator App &nbsp;
+				<span id="icon" class="fa"></span>
+			</h1><br/>
+			<h2 class="light-font">Select the language to translate to, and enter something in English to get started!</h2><br>
+			<p class="light-font">Powered by: Yandex Translate API</p>
+			<br><br>
+			<ul class="language-btns">
+				<li>
+				    <input type="radio" id="l1" name="lang" value="fr" checked="checked"/>
+				    <label for="l1">French</label>
+				</li>
+				<li>
+				    <input type="radio" id="l2" name="lang" value="ar"/>
+				    <label for="l2">Arabic</label>
+				</li>
+				<li>
+					<input type="radio" id="l3" name="lang" value="bn">
+					<label for="l3">Bengali</label>
+				</li>
+				<li>
+					<input type="radio" id="l4" name="lang" value="my">
+					<label for="l4">Burmese</label>
+				</li>
+				<li>
+					<input type="radio" id="l5" name="lang" value="vi"> 
+					<label for="l5">Vietnamese</label>
+				</li>
+				<li>
+					<input type="radio" id="l6" name="lang" value="hi">
+					<label for="l6">Hindi</label>
+				</li>
+				<li>
+					<input type="radio" id="l7" name="lang" value="ko">
+					<label for="l7">Korean</label>
+				</li>
+				<li>
+					<input type="radio" id="l8" name="lang" value="ja">
+					<label for="l8">Japanese</label>
+				</li>
+				<li>
+					<input type="radio" id="l9" name="lang" value="cy">
+					<label for="l9">Welsh</label>
+				</li>
+				<li>
+					<input type="radio" id="l10" name="lang" value="hu">
+					<label for="l10">Hungarian</label>
+				</li>
+				<li>
+					<input type="radio" id="l11" name="lang" value="nl">
+					<label for="l11">Dutch</label>
+				</li>
+				<li>
+					<input type="radio" id="l12" name="lang" value="el">
+					<label for="l12">Greek</label>
+				</li>
+				<li>
+					<input type="radio" id="l13" name="lang" value="it">
+					<label for="l13">Italian</label>
+				</li>
+				<li>
+					<input type="radio" id="l14" name="lang" value="es">
+					<label for="l14">Spanish</label>
+				</li>
+				<li>
+					<input type="radio" id="l15" name="lang" value="zh">
+					<label for="l15">Chinese</label>
+				</li>
+				<li>
+					<input type="radio" id="l16" name="lang" value="ko">
+					<label for="l16">Korean</label>
+				</li>
+				<li>
+					<input type="radio" id="l17" name="lang" value="la">
+					<label for="l17">Latin</label>
+				</li>
+				<li>
+					<input type="radio" id="l18" name="lang" value="sv">
+					<label for="l18">Swedish</label>
+				</li>
+				<li>
+					<input type="radio" id="l19" name="lang" value="gv">
+					<label for="l19">Scottish</label>
+				</li>
+				<li>
+					<input type="radio" id="l20" name="lang" value="ru">
+					<label for="l20">Russian</label>
+				</li>
+			</ul>
+
+			<br><br>
+			<form id="translateForm">
+				<input type="text" id="inputWord" name="inputWord" placeholder="Enter English word...">
+				<input type="submit" name="submit" value="Translate!">
+			</form>
+			
+			<br><br>
+			<div id="result"></div>
+		</div>
+	</section>
+	<hr>
+	<footer>
+		<div class="container">
+			<p class="light-font">&copy; 2017 Ayush Jha Language Translator</p>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js"
+			integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+			crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

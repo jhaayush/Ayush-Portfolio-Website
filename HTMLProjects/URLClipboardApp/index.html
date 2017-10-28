@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>URL Clipboard App</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+
+  <body onload="displayClipboard()">
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          
+        </nav>
+        <h3 class="text-muted">URL Clipboard Application</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h2>Add New Site</h2>
+        <form id="dataForm">
+          <div class="form-group">
+            <label>Enter Site Name:</label>
+            <input type="text" name="siteName" id="siteName" class="form-control" placeholder="New Site Name Here..."><br/>
+            <label>Enter Site URL:</label>
+            <input type="text" name="siteUrl" id="siteUrl" class="form-control" placeholder="New Site URL Here..."><br/>
+            <input class="btn btn-lg btn-success" type="submit" value="Add to Clipboard">
+          </div>
+        </form>
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-12">
+          <div id="clipboardData"></div>
+          <!-- <div class="pull-right">
+            <input type="button" class="btn btn-default" value="Copy URL" name="copyBtn">
+            <input type="button" class="btn btn-danger" value="Delete" name="deleteBtn">
+          </div> -->
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; 2017 Ayush Jha, URL Clipboard.</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
