@@ -13,18 +13,35 @@
     <link rel="stylesheet" type="text/css" href="css/custom.css">
   </head>
   <body>
-    <nav class="tm-navbar">
+    <nav class="tm-navbar navbar">
       <div class="container">
         <h2 class="pull-left">|| A R J ||</h2>
-        <ul class="navbar-links pull-right">
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#notes">Notes</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="navbar-header">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	          <span class="sr-only">Toggle navigation</span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	        </button>
+	        <!-- <a class="navbar-brand" href="#">Project name</a> -->
+	    </div>
+        <div id="navbar" class="navbar-collapse collapse">
+	        <ul class="navbar-nav navbar-links pull-right">
+	          <li><a href="#">Home</a></li>
+	          <li><a href="#about">About</a></li>
+	          <li><a href="#projects">Projects</a></li>
+	          <li><a href="#notes">Notes</a></li>
+	          <li><a href="#contact">Contact</a></li>
+	        </ul>
+        </div>
       </div>
     </nav>
+
+    <a onclick="topFunction()" id="top-link" title="Go to top">
+    	<span class="glyphicon glyphicon-triangle-top"></span>
+  		Top
+		<span class="glyphicon glyphicon-triangle-top"></span>
+    </a>
 
     <header class="tm-header">
       <div class="container">
@@ -171,7 +188,7 @@
           <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
           <a href="mailto:ayush.jha.iit@gmail.com">ayush.jha.iit@gmail.com</a>
         </h4>
-        <h4>
+        <h4 class="contact-item">
           <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
           <a href="tel:1-734-709-0506">
           (734)-709-0506</a>
@@ -204,5 +221,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
